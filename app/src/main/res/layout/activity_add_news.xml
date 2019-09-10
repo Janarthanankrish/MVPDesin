@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/app_bar" />
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:background="@drawable/edittext_background"
+        android:fontFamily="@font/exo_2"
+        android:hint="@string/name"
+        android:inputType="text"
+        android:paddingStart="@dimen/_10sdp"
+        android:singleLine="true"
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:textSize="@dimen/_12sdp" />
+
+    <EditText
+        android:id="@+id/et_eid"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:background="@drawable/edittext_background"
+        android:fontFamily="@font/exo_2"
+        android:hint="@string/eid"
+        android:inputType="number"
+        android:paddingStart="@dimen/_10sdp"
+        android:singleLine="true"
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:textSize="@dimen/_12sdp" />
+
+    <EditText
+        android:id="@+id/et_idbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:background="@drawable/edittext_background"
+        android:fontFamily="@font/exo_2"
+        android:hint="@string/idbarahno"
+        android:inputType="number"
+        android:paddingStart="@dimen/_10sdp"
+        android:singleLine="true"
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:textSize="@dimen/_12sdp" />
+
+    <EditText
+        android:id="@+id/et_unified_number"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:background="@drawable/edittext_background"
+        android:fontFamily="@font/exo_2"
+        android:hint="@string/unified_number"
+        android:inputType="number"
+        android:paddingStart="@dimen/_10sdp"
+        android:singleLine="true"
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:textSize="@dimen/_12sdp" />
+
+    <EditText
+        android:id="@+id/et_number"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:background="@drawable/edittext_background"
+        android:fontFamily="@font/exo_2"
+        android:hint="@string/number"
+        android:inputType="phone"
+        android:paddingStart="@dimen/_10sdp"
+        android:singleLine="true"
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:textSize="@dimen/_12sdp" />
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:background="@drawable/button_bg"
+        android:fontFamily="@font/exo_2_bold"
+        android:text="@string/save"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/_12sdp" />
+
+
+</LinearLayout>

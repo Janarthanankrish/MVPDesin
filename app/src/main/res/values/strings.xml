@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">MvpDesign</string>
+    <string name="email">Email</string>
+    <string name="email_error">Please enter email</string>
+    <string name="valid_email_error">Please enter valid email</string>
+    <string name="password">Password</string>
+    <string name="password_error">Please enter password</string>
+    <string name="valid_password_error">Please enter minimum 6 digit password</string>
+    <string name="login">Login</string>
+    <string name="network_error">Your in offline mode! Please check your internet connections</string>
+    <string name="news_error">No news feed found. Please try after sometime.</string>
+    <string name="news">News</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="logout_msg">Are you sure to Logout?</string>
+    <string name="name">Name</string>
+    <string name="name_error">Please enter name</string>
+    <string name="number">Mobile Number</string>
+    <string name="number_error">Please enter mobile number</string>
+    <string name="eid">Employee ID</string>
+    <string name="eid_error">Please enter Employee ID</string>
+    <string name="unified_number">Unified Number</string>
+    <string name="unified_number_error">Please enter Unified Number</string>
+    <string name="idbarahno">ID Barah Number</string>
+    <string name="idbarahno_error">Please enter ID Barah Number</string>
+    <string name="save">Save</string>
+    <string name="add_news">Add News</string>
+</resources>
